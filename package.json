@@ -1,0 +1,22 @@
+{
+  "name": "@eficodeilkka/exercise-publish-package",
+  "version": "1.0",
+  "description": "daadaa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Yep\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EficodeIlkka/exercise-publish-package.git"
+  },
+  "author": "EficodeIlkka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EficodeIlkka/exercise-publish-package/issues"
+  },
+  "homepage": "https://github.com/EficodeIlkka/exercise-publish-package#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}
