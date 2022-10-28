@@ -2,9 +2,7 @@
   "name": "@eficodeilkka/exercise-publish-package",
   "version": "1.0",
   "description": "daadaa",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Yep\" && exit 1"
+  "main": "index.js"
   },
   "repository": {
     "type": "git",
