@@ -1,11 +1,11 @@
-name: Node.js Package
+name: My Node.js Package Workflow
 
 on:
   release:
     types: [created]
 
 jobs:
-  build:
+  run-npm-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,7 +16,7 @@ jobs:
       - run: npm test
 
   publish-gpr:
-    needs: build
+    needs: run-npm-build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
