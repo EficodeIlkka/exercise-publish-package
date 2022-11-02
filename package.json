@@ -1,10 +1,11 @@
 {
   "name": "@eficodeilkka/exercise-publish-package",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "daadaa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "ncc build index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/EficodeIlkka/exercise-publish-package#readme",
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
+  },
+    "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0"
   }
 }
